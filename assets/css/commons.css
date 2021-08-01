@@ -1,0 +1,21 @@
+:root {
+  --accent-color: #fa4a0c;
+  --text-color: #f6f6f6;
+  --text-bg-color: #252b42;
+  --accent-color: #737373;
+  --separator-color: #e4e4e4;
+  --futer-text-color: #5c5c5c;
+
+  font-size: 14px;
+  font-family: sans-serif;
+}
+@media screen and (min-width: 576px) {
+  :root {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) {
+  :root {
+    font-size: 16px;
+  }
+}
