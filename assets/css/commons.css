@@ -1,13 +1,29 @@
 :root {
   --accent-color: #fa4a0c;
-  --text-color: #f6f6f6;
+  --text-color: #ffffff;
+  --text-color-max: #f6f6f6;
+
   --text-bg-color: #252b42;
-  --accent-color: #737373;
+  --accent-color-text: #737373;
   --separator-color: #e4e4e4;
   --futer-text-color: #5c5c5c;
+  --section-backgraund-color: #fafafa;
 
   font-size: 14px;
   font-family: sans-serif;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.text-content {
+  line-height: 1.2;
+  text-align: center;
+}
+.overflow-protection {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 @media screen and (min-width: 576px) {
   :root {
