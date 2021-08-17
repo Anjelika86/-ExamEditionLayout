@@ -1,0 +1,50 @@
+.app-works {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.6rem;
+}
+.heading-works-section {
+  font-weight: 600;
+  margin: 3rem 0 3rem 0;
+}
+.link-section {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+.heading-section {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-bg-color);
+}
+.create-account {
+  margin: 3rem 0 4rem 0;
+  padding: 0 1.5rem 0 1.5rem;
+}
+.heading-section {
+  margin: 2rem 0 2rem 0;
+  line-height: 1.5;
+}
+.text-section-account {
+  line-height: 1.3;
+  color: var(--accent-color-text);
+  margin-bottom: 2rem;
+}
+.img-wrapper-section {
+  max-width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 576px) {
+  .img-wrapper-section {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .create-account {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .shop-for-your {
+    flex-direction: row;
+  }
+}
