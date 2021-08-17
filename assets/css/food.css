@@ -1,0 +1,121 @@
+.food-section {
+  background-color: var(--section-backgraund-color);
+}
+.food-heading {
+  color: var(--text-bg-color);
+  font-size: 2rem;
+  margin: 1.2rem 0 1.2rem 0;
+}
+.food-app-wrapper,
+.food-buttons-wrapper {
+  font-weight: 700;
+  font-family: "Montserrat";
+}
+.text-section {
+  color: var(--accent-color-text);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.text-food {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.food-app-wrapper {
+  padding: 1.3rem;
+}
+
+.link-btn {
+  display: block;
+  max-width: 400px;
+  border: 1px solid;
+  padding: 15px 50px;
+  border-radius: 1.8rem;
+  color: var(--text-color);
+  margin: 10px 0 10px 0;
+}
+.food-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.btn-orange {
+  background-color: var(--accent-color);
+  border: none;
+}
+.btn-store {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+.img-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.img-phones {
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 576px) {
+  .food-buttons-wrapper {
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1rem;
+  }
+  .backgraund-food-section {
+    background-image: url(./../img/Rectangle\ 48.png);
+    padding-bottom: 5rem;
+  }
+  .text-max {
+    color: var(--text-color);
+    margin-top: 2rem;
+  }
+
+  .text-download {
+    color: var(--text-color-max);
+    font-weight: 500;
+    font-family: "Montserrat";
+  }
+
+  .link-btn {
+    margin: 1.2rem;
+  }
+  .btn-store {
+    border-color: white;
+    color: var(--text-color);
+  }
+  .img-wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: -100px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .food-app-wrapper {
+    font-family: "Poppins";
+  }
+  .food-heading {
+    font-size: 3rem;
+  }
+
+  .food-app-wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+    line-height: 1.5;
+  }
+  .text-download {
+    color: var(--text-color-max);
+    font-weight: 500;
+    font-family: "Montserrat";
+  }
+  .text-food,
+  .food-buttons-wrapper {
+    font-size: 1.5rem;
+  }
+
+  .img-wrapper {
+    max-width: 500px;
+    margin-top: -120px;
+  }
+}
