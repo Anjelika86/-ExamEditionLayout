@@ -1,10 +1,7 @@
-.food-section {
-  background-color: var(--section-backgraund-color);
-}
 .food-heading {
   color: var(--text-bg-color);
   font-size: 2rem;
-  margin: 1.2rem 0 1.2rem 0;
+  margin: 25px 0 25px 0;
 }
 .food-app-wrapper,
 .food-buttons-wrapper {
@@ -17,15 +14,15 @@
   font-weight: 500;
 }
 .text-food {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
 .food-app-wrapper {
-  padding: 1.3rem;
+  padding: 20px;
 }
 
-.link-btn {
+/* .link-btn {
   display: block;
   max-width: 400px;
   border: 1px solid;
@@ -33,20 +30,20 @@
   border-radius: 1.8rem;
   color: var(--text-color);
   margin: 10px 0 10px 0;
-}
-.food-buttons-wrapper {
+} */
+/* .food-buttons-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   font-size: 1.3rem;
-}
+} */
 .btn-orange {
   background-color: var(--accent-color);
   border: none;
 }
 .btn-store {
-  border-color: var(--accent-color);
+  border-color: 1px var(--accent-color);
   color: var(--accent-color);
 }
 .img-wrapper {
@@ -57,6 +54,9 @@
   display: block;
   width: 100%;
 }
+.backgraund-food-section {
+  margin-bottom: 40px;
+}
 @media screen and (min-width: 576px) {
   .food-buttons-wrapper {
     flex-direction: row;
@@ -65,21 +65,24 @@
   }
   .backgraund-food-section {
     background-image: url(./../img/Rectangle\ 48.png);
-    padding-bottom: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+    margin: 0;
   }
   .text-max {
     color: var(--text-color);
-    margin-top: 2rem;
+    margin-top: 28px;
   }
 
   .text-download {
     color: var(--text-color-max);
     font-weight: 500;
-    font-family: "Montserrat";
   }
 
   .link-btn {
-    margin: 1.2rem;
+    margin: 20px;
   }
   .btn-store {
     border-color: white;
@@ -88,34 +91,27 @@
   .img-wrapper {
     max-width: 400px;
     margin: 0 auto;
-    margin-top: -100px;
+    margin-top: -120px;
   }
 }
 @media screen and (min-width: 992px) {
   .food-app-wrapper {
     font-family: "Poppins";
+    line-height: 1.5;
   }
   .food-heading {
     font-size: 3rem;
   }
 
-  .food-app-wrapper {
-    margin: 0 auto;
-    max-width: 900px;
-    line-height: 1.5;
-  }
-  .text-download {
-    color: var(--text-color-max);
-    font-weight: 500;
-    font-family: "Montserrat";
-  }
   .text-food,
   .food-buttons-wrapper {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  .text-download {
+    font-family: "Montserrat";
   }
 
   .img-wrapper {
     max-width: 500px;
-    margin-top: -120px;
   }
 }
