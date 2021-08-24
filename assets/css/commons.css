@@ -2,12 +2,10 @@
   --accent-color: #fa4a0c;
   --text-color: #ffffff;
   --text-color-max: #f6f6f6;
-
   --text-bg-color: #252b42;
   --accent-color-text: #737373;
   --separator-color: #e4e4e4;
   --futer-text-color: #5c5c5c;
-  --section-backgraund-color: #fafafa;
 
   font-size: 14px;
   font-family: sans-serif;
@@ -15,6 +13,9 @@
 .link {
   text-decoration: none;
   color: inherit;
+}
+.link-logo {
+  display: block;
 }
 .text-content {
   line-height: 1.2;
@@ -25,6 +26,39 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+.food-buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.link-btn {
+  display: block;
+  max-width: 400px;
+  border: 1px solid;
+  padding: 15px 50px;
+  border-radius: 1.8rem;
+  color: var(--text-color);
+  margin: 10px 0 10px 0;
+}
+.container-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.heading-section {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--text-bg-color);
+  margin: 20px 0 20px 0;
+  line-height: 1.5;
+}
+.text-section {
+  line-height: 1.3;
+  color: var(--accent-color-text);
+  margin-bottom: 2rem;
+}
 @media screen and (min-width: 576px) {
   :root {
     font-size: 15px;
@@ -33,5 +67,10 @@
 @media screen and (min-width: 992px) {
   :root {
     font-size: 16px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-section {
+    max-width: 1100px;
   }
 }
