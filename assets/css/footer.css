@@ -1,0 +1,31 @@
+.footer {
+  text-align: center;
+  padding: 45px;
+}
+.logo-wrapper {
+  display: none;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-footer {
+  margin: 20px;
+}
+.text-footer {
+  font-family: Roboto;
+  font-weight: 700;
+  color: #5c5c5c;
+  font-size: 0.8rem;
+}
+@media screen and (min-width: 992px) {
+  .logo-wrapper {
+    display: block;
+  }
+  .footer-flex-cotainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
